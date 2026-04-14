@@ -1,0 +1,8 @@
+com/opencart/userinterfaces/CheckoutPage.class
+com/opencart/questions/ConfirmarCompra.class
+com/opencart/tasks/AgregarProductos.class
+com/opencart/tasks/VerCarrito.class
+com/opencart/userinterfaces/CarritoPage.class
+com/opencart/tasks/Checkout.class
+com/opencart/userinterfaces/HomePage.class
+com/opencart/userinterfaces/CheckoutPage$MENSAJE_CONFIRMACION.class

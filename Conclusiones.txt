@@ -1,0 +1,16 @@
+﻿Conclusiones
+
+
+* SerenityBDD con Screenplay permite la realización de las pruebas automatizadas de forma ordenada, clara y facilitando la mantenibilidad del código.
+
+* Se usa BDD ya que permite que tanto el desarrollador, QA o cliente entienda el escenario a automatizar y adicional que este mismo se pueda usar en el código.
+
+* Para este tipo de proyecto se puede usar tanto maven o glade para el manejo de dependencias todo depende de la necesidad del proyecto, en este caso fue maven ya que es un proyecto simple que no requiere personalizaciones complejas y permite su manejo a través del archivo estructurado pom.
+
+* Se usaron esperas explícitas ya que son solo algunos elementos los que lo requiere y se evita utilizar esperas como Thread.sleep lo cual podría afectar el rendimiento de la automatización.
+
+* Se usó el manejo manual de WebDriver ya que era un proyecto pequeño pero cuando el proyecto es grande la configuración se puede hacer a través del archivo serenity.conf.
+
+* Se parametrizan los datos en el task ya que permite la mantenibilidad de estos y no se encuentran hardcodeados pero para proyectos más grandes se puede hacer a través de un archivo externo.
+
+* Otra de las ventajas de la estructura y frameworks usados en el proyecto es la generación de reportes automáticos, los cuales permitirían a través de su datos tomar decisiones, identificar cuellos de botellas, flujos con errores y evidencia de esto.
